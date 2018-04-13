@@ -49,9 +49,12 @@ nav li a {
 }
 
 nav li a:hover{
-  color: black;
+  color: white;
+  cursor: pointer;
+  background-color: #31384f; 
 }
 
+/*---------Talk Bar---------------*/
 .chat{
     position: -webkit-sticky;
     position: sticky;
@@ -65,7 +68,8 @@ nav li a:hover{
   margin-right: 20px;
 }
 
-/*------Naviation End-------*/
+
+/*------Header-------*/
 
 
 .intro{
@@ -113,7 +117,72 @@ nav li a:hover{
 
 }
 
-/*--------Dropdown-----*/
+/*----Info-------*/
+
+.info{
+  font-size: 18px;
+  width: 400px;
+  display: block;
+  margin-top: 15px;
+  margin-left: 0px;
+  color: #31384f;
+  text-decoration: none;
+
+}
+
+.info h2 a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #31384f;
+
+}
+/*------Support Main-------*/
+
+.sections{
+	margin: 50px 0;
+
+}
+
+.section{
+  
+  margin-left: 60px;
+  margin-top: 100px;
+
+}
+
+.section h1{
+  display: block;
+  margin-left: 100px;
+  font-weight: 600;
+  color: #31384f;
+  font-size: 32px;
+}
+
+.section h2{
+  font-size: 18px;
+  width: 400px;
+  display: block;
+  margin-top: 15px;
+  margin-left: 100px;
+  color: #31384f;
+
+}
+
+.section p{
+  font-size: 12px;
+  display: block;
+  width: 400px;
+  margin-top: 15px;
+  margin-left: 100px;
+  color: #31384f;
+}
+
+.support-link{
+	color: #69ffa9;
+}
+
+
+/*--------Search Middle Bar-----*/
 
 .dropdown {
   position: relative;
@@ -196,6 +265,7 @@ nav li a:hover{
 
 .button a:hover{
   color: black;
+  cursor: pointer;
 }
 
 
@@ -211,7 +281,7 @@ footer{
 
 footer ul {
   list-style-type: none;
-  margin: 0;
+  /*margin-top: 1200px;*/
   padding: 0;
   overflow: hidden;
   background-color: #31384f;
@@ -228,7 +298,13 @@ footer li a {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 12px;
+
 }
 
+footer li a:hover{
+	color: black;
+	background-color: #f7f7f8;
+	cursor: pointer;
+}
 
 
